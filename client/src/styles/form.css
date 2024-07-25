@@ -1,0 +1,140 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bgimage{
+    background-image: url('../assets/hpp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+    width: 99%;
+    filter: blur(8px);
+    position: absolute;   
+}
+.bodycontainer{
+    /* background-color: yellow; */
+    display: none;
+    height: 350px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.area label{
+    margin-left: 8px;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+}
+.area input{
+    border: 1px solid #767676;
+    font-size: 15px;
+    height: 32px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white ;
+    padding-left: 5px;
+}
+.area input:focus{
+    outline: none;
+}
+.bhk label{
+    /* margin-left: 10px; */
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+}
+.bhk select{
+    font-size: 15px;
+    margin-left: 45px;
+    height: 35px;
+    width: 210px;
+    border-radius: 5px;
+}
+.bhk select:focus{
+    outline: none;
+}
+.bath label{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.bath select{
+    font-size: 15px;
+    height: 35px;
+    width: 210px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.bath select:focus{
+    outline: none;
+}
+.location label{
+    font-size: 25px;
+    padding: 13px;
+    font-weight: 600;
+    margin-left: -10px;
+}
+.location select{
+    font-size: 15px;
+    height: 35px;
+    width: 210px;
+    border-radius: 5px;
+}
+.location select:focus{
+    outline: none;
+}
+.submitbutton button{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 40px;
+    width: 657px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+    border-radius: 6px;
+}
+.submitbutton button[disabled]{
+    cursor: not-allowed;
+}
+.predictedamount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    position: absolute;
+    margin: 35px;
+}
+.predictedamount label{
+    font-size: 35px;
+    color: white;
+}
+.predictedamount input{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-left: 10px;
+    color: #151515;
+    height: 40px;
+    width: 345px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
